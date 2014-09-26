@@ -1,0 +1,4 @@
+[submodule "src/static/Semantic-UI-gh-pages"]
+	path = src/static/Semantic-UI-gh-pages
+	url = https://github.com/Semantic-Org/Semantic-UI
+	branch = gh-pages
