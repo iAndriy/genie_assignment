@@ -1,4 +1,4 @@
-[submodule "src/static/Semantic-UI-gh-pages"]
-	path = src/static/Semantic-UI-gh-pages
-	url = https://github.com/Semantic-Org/Semantic-UI
+[submodule "src/genie_assignment/static/Semantic-UI-gh-pages"]
+	path = src/genie_assignment/static/Semantic-UI-gh-pages
+	url = https://github.com/Semantic-Org/Semantic-UI.git
 	branch = gh-pages

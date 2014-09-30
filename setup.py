@@ -10,6 +10,7 @@ requires = [
     'nose==1.3.4',
     'selenium==2.43.0',
     'tornado==4.0.2',
+    'coverage==3.7.1'
 ]
 
 
@@ -20,7 +21,6 @@ setup(
     long_description=README,
     classifiers=[
         "Programming Language :: Python",
-        "Development Status :: Test Assignment",
         "Environment :: Web Environment",
         "Programming Language :: Python :: 2.7",
         "Topic :: Internet :: WWW/HTTP",
@@ -31,6 +31,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
+    tests_require=requires,
     zip_safe=True,
     install_requires=requires,
 )
