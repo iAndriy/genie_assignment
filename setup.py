@@ -4,13 +4,14 @@ import os
 from setuptools import setup, find_packages
 
 here = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(here, 'README.md')).read()
+README = open(os.path.join(here, 'README.MD')).read()
 
 requires = [
     'nose==1.3.4',
     'selenium==2.43.0',
     'tornado==4.0.2',
-    'coverage==3.7.1'
+    'coverage==3.7.1',
+    'xvfbwrapper==0.2.4',
 ]
 
 

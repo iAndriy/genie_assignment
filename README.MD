@@ -22,6 +22,10 @@ Inject JavaScript into the page in one step, and call one of the injected variab
 
 Setup
 -----
+### System Requirements ###
+    * Python 2
+    * Xvfb
+
 ### Semantic-UI ###
 Semantic-UI repo is added as submodule of genie_assignment.git. To pull changes from Semantic-UI repo please run:
 
